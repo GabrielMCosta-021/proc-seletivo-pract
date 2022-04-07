@@ -236,6 +236,7 @@ nav{
 
 .text-form{
     font-size: 1.1em;
+    width: 25em;
 }
 
 .text-form h2{
@@ -279,6 +280,8 @@ form input, textarea{
     border-radius: 20px;
     border: 1px solid var(--cor-sec);
     color: #666;
+
+    width: 30rem;
 }
 
 form input{
@@ -287,7 +290,7 @@ form input{
 }
 
 form button{
-    margin: 10px 80%;
+    margin: 10px 90%;
 }
 
 .enviar{
@@ -303,10 +306,17 @@ form button{
     font-weight: 800;
     font-size: 1.2em;
     text-align: center;
+
+    margin-right: 60px;
     
     color: #fff;
     background-color: var(--cor-princ);
 }
+
+
+/* NEWSLATTER */
+
+
 
 .news{
     display: flex;
